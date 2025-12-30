@@ -1,0 +1,41 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# PyTorch checkpoints (IMPORTANT - don't upload huge model files!)
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+checkpoints/
+pretrained_models/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# Data files (don't upload videos!)
+*.mp4
+*.avi
+*.mov
+data/
+videos/
+eval_videos/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+venv/
+env/
+.env
